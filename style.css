@@ -8,14 +8,15 @@ html {
 }
 
 body {
-  background: radial-gradient(#b6ecba 5px, 
-      whitesmoke 10px 65px, #b6ecba 1px );
+  background: radial-gradient(#7ff7ff 5px, 
+      whitesmoke 10px 65px, #7ff7ff 1px );
   background-size: 100px 100px ;
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🎵</text></svg>") 16 0,auto; /*!emojicursor.app*/
 }
 
 h1,
 h2 {
-  background-color: #077e0f;
+  background-color: #00c2ff;
   border-radius: 20px;
   color: white;
   width: 600px;
@@ -23,6 +24,7 @@ h2 {
   margin-bottom: 5px;
 }
 #myCanvas {
-  border: 5px solid #077e0f;
+  border: 5px solid #00c2ff;
   border-radius: 30px;
 }
+

@@ -1,6 +1,7 @@
 //🟢Setup Procedure - Runs Once to Set The Canvas
 void setup(){
   size(600, 400); 
+  background(255,255,255);
 }
 
 //🎯Variable Declarations Go Here
@@ -8,10 +9,22 @@ void setup(){
 
 //🟢Draw Function - Runs on Repeat
 draw = function(){  
-  background(255,255,255);
+  
+  textSize(30);
+  fill(168, 52, 235);
+  text("my favorite bands/artists right now", 100, 50);
+  
   
   if(mousePressed){
-    showXYPositions();
+    background(255,255,255);
+    fill(168, 52, 235);
+    text("my favorite bands/artists right now", 100, 50);
+    fill(129, 242, 53);
+    text("big thief", random(0,600), 150);
+    fill(242, 53, 123);
+    text("cats millionaire", random(0,600), 200);
+    fill(255, 136, 38);
+    text("bassvictim", random(0,600), 300);
   }
 
   //🎯New Text Code Should Go Here 🡻
